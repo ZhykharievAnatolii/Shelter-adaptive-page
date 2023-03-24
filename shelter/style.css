@@ -1,0 +1,516 @@
+body{
+ max-width: 1280px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(assets/start-screen-gradient-background.png);
+    padding: 30px 40px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 30px;*/
+    /*margin-left: 40px;*/
+}
+.logo-info{
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F1CDB3;
+}
+.logo-subtitle{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.navbar-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    margin-right: 35px;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+}
+.start-screen{
+    display: flex;
+    justify-content: center;
+    background: url(assets/start-screen-gradient-background.png);
+
+}
+
+.main-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.main-text{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.main-text-description{
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+.btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+    padding: 15px 45px;
+    gap: 10px;
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+
+}
+.btn-primary span{
+    width: 117px;
+    height: 22px;
+    white-space: nowrap;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.start-screen-img{
+    margin-top: 180px;
+    width: 698px;
+    height: 728px;
+    bottom: 0px;
+}
+.about-shelter{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.about-img{
+    margin-top: 80px;
+    width: 300px;
+    height: 408px;
+}
+.about-shelter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.about-shelter-card{
+    margin-top: 80px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.about-main-text{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+}
+.about-main-text-description{
+    margin-top: 25px;
+    text-align: justify;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+.our-friends{
+    background-color: #F6F6F6;
+}
+.heading-friends{
+    display: flex;
+    justify-content: center;
+}
+.heading-text-our-friends{
+    margin-top: 80px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-right: 145px;
+    margin-right: 145px;
+}
+.slider-item{
+    width: 270px;
+    height: 270px;
+    border-radius: 9px 9px 0px 0px;
+}
+.slider-item-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+}
+.slider-item-bottom p{
+    margin-bottom: 45px;
+}
+.pets-name{
+    width: 97px;
+    height: 22px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.learn-more{
+    width: 187px;
+    height: 52px;
+    border-color: #FDDCC4;
+    border-radius: 100px;
+}
+.get-know-the-rest{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+}
+.get-know-the-rest span{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    align-self: center;
+}
+.how-you-can-help{
+    background-color: #FFFFFF;
+}
+.help-heading{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.help-heading-text{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.help-cards-content-top{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.help-cards-content-bottom{
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+/*.help-card{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+.help-img-pet-food{
+    Width :47.86px;
+    Height :60px;
+    left: 10.12%;
+    right: 10.12%;
+    top: 0%;
+    bottom: 0%;
+}
+.help-img-transportation{
+    width: 59.95px;
+    height: 60px;
+    left: calc(50% - 59.95px/2 - 0.05px);
+    top: calc(50% - 60px/2);
+}
+.help-img-toys{
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 60px/2);
+    top: calc(50% - 60px/2);
+}
+.help-img-bowls{
+    width: 60px;
+    height: 56.82px;
+    left: calc(50% - 60px/2);
+    top: calc(50% - 56.82px/2 + 0.41px);
+}
+.help-img-shampoos{
+    width: 31.3px;
+    height: 60px;
+    left: calc(50% - 31.3px/2 - 0.7px);
+    top: calc(50% - 60px/2);
+}
+.help-img-vitamins{
+    width: 60px;
+    height: 54.16px;
+    left: calc(50% - 60px/2);
+    top: calc(50% - 54.16px/2 + 0.08px);
+}
+.help-img-medicines{
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 60px/2 - 0px);
+    top: calc(50% - 60px/2);
+}
+.help-img-collars{
+    width: 60px;
+    height: 52.43px;
+    left: 0px;
+    top: 4px;
+}
+.help-img-sleeping{
+    width: 56.29px;
+    height: 60px;
+    left: calc(50% - 56.29px/2 + 0.29px);
+    top: calc(50% - 60px/2);
+}
+.help-card h4{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.donation{
+    background-color: #F6F6F6;;
+}
+.donation-elements{
+    display: flex;
+    justify-content: center;
+}
+.donation-img{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 110px;
+}
+.donation-dog{
+    width: 505px;
+    height: 261px;
+}
+.donation-cards{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.donation-heading-text{
+    margin-top: 80px;
+    /*padding-top: 10px;*/
+    /*padding-left: 15px;*/
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    width: 300px;
+    height: 90px;
+}
+.name-of-bank{
+    margin-top: 20px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #545454;
+    width: 307px;
+    height: 17px;
+}
+.donation-credit-card{
+    margin-top: 30px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    background: #F1CDB3;
+    border-radius: 9px;
+    width: 349px;
+    height: 43px;
+}
+.donation-credit-card-img{
+    width: 30px;
+    height: 23px;
+}
+.donation-description{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+    width: 380px;
+    height: 72px;
+}
+footer{
+    background:radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    display: flex;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    margin-top: 56px;
+    margin-left: 40px;
+    margin-bottom: 64px;
+}
+.question-description h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.waiting-for{
+    margin-top: 56px;
+    margin-left: 161px;
+    margin-bottom: 64px;
+}
+.waiting-for-description h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.mail-img{
+    width: 40px;
+    height: 26px;
+}
+.mail-link a{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+.phone-img{
+    width: 40px;
+    height: 32px;
+}
+.phone-link a {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+.location-img{
+    width: 22px;
+    height: 32px;
+}
+.location-link a{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+.footer-img{
+    display: flex;
+    align-items: end;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 160px;
+}
+.footer-img p{
+    width: 300px;
+    height: 310px;
+    margin-bottom: 0px;
+}
