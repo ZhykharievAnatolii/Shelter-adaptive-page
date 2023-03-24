@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be7bf643-2db0-4e01-bf6a-6885205bd5ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pets.html" beforeDir="false" afterPath="$PROJECT_DIR$/pets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/petsStyle.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MphBAi5juekRV1G1JabaDjPNKk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\User\Desktop\Нова папка\cssBayan\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be7bf643-2db0-4e01-bf6a-6885205bd5ef" name="Changes" comment="" />
+      <created>1678470293059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678470293059</updated>
+      <workItem from="1678470294698" duration="4807000" />
+      <workItem from="1678515038143" duration="1121000" />
+      <workItem from="1678550022755" duration="2955000" />
+      <workItem from="1678558829234" duration="5301000" />
+      <workItem from="1678601597444" duration="1797000" />
+      <workItem from="1678603513437" duration="1037000" />
+      <workItem from="1679302824991" duration="267000" />
+      <workItem from="1679303333663" duration="5764000" />
+      <workItem from="1679317786659" duration="231000" />
+      <workItem from="1679322677931" duration="4227000" />
+      <workItem from="1679331262743" duration="7583000" />
+      <workItem from="1679560820245" duration="254000" />
+      <workItem from="1679572139060" duration="1009000" />
+      <workItem from="1679579461740" duration="3057000" />
+      <workItem from="1679590813521" duration="5336000" />
+      <workItem from="1679637942474" duration="3494000" />
+      <workItem from="1679653463313" duration="4822000" />
+      <workItem from="1679668220779" duration="796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
