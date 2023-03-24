@@ -159,6 +159,7 @@ header{
 }
 .our-friends{
     background-color: #F6F6F6;
+    height: 877px;
 }
 .heading-friends{
     display: flex;
@@ -183,6 +184,31 @@ header{
     margin-top: 60px;
     margin-right: 145px;
     margin-right: 145px;
+}
+.slider-button{
+    display: flex;
+    align-items: center;
+    margin-left: 59px;
+}
+.slider-control-left{
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    border-color: #F1CDB3;
+}
+.slider-control-left img{
+    width: 14px;
+    height: 6px;
+}
+.slider-control-right{
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    border-color: #F1CDB3;
+}
+.slider-control-right img{
+    width: 14px;
+    height: 6px;
 }
 .slider-item{
     width: 270px;
