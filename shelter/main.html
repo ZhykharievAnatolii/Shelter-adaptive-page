@@ -12,7 +12,7 @@
 <body>
 <header>
     <div class="logo">
-        <div class="logo-info">Cozy House
+        <div class="logo-info"><a href="#">Cozy House</a>
         </div>
         <div class="logo-subtitle">
             Shelter for pets in Boston
@@ -21,9 +21,9 @@
     <nav class="navbar-header">
                 <div class="navbar-nav">
                     <a class="nav-link" href="#">About the shelter</a>
-                    <a class="nav-link" href="#">Our pets </a>
-                    <a class="nav-link" href="#">Help the shelter</a>
-                    <a class="nav-link" href="#">Contacts</a>
+                    <a class="nav-link" href="pets.html">Our pets </a>
+                    <a class="nav-link" href="#help">Help the shelter</a>
+                    <a class="nav-link" href="#contacts">Contacts</a>
                 </div>
     </nav>
 </header>
@@ -39,10 +39,10 @@
             wide and open heart. He or she will love you more than anybody else <br>
             in the world, you will see!
         </div>
-            <button class="btn-primary" type="submit"><span>Make a friend</span></button>
+            <button class="btn-primary" type="submit"><span><a href="#friends"> Make a friend</a></span></button>
         </div>
         <div class="start-screen-img">
-            <div class="start-screen puppy">
+            <div class="start-screen-puppy">
             <img src="./assets/start-screen-puppy.png">
             </div>
         </div>
@@ -68,7 +68,7 @@
             </div>
         </div>
     </section>
-    <section class="our-friends">
+    <section id="friends"class="our-friends">
         <div class="heading-friends">
         <div class="heading-text-our-friends">
             Our friends who<br>
@@ -80,7 +80,7 @@
         </button>
        </div>
         <div class="slider">
-            <div class="slider-item" >
+            <div class="slider-item-katrine" >
                 <img class="pets-img-slider" src="./assets/pets-katrine.png">
                  <div class="slider-item-bottom">
                      <p class="pets-name">Katrine</p>
@@ -92,7 +92,7 @@
             <div class="slider-item" >
                 <img class="pets-img-slider" src="./assets/pets-jennifer.png">
                 <div class="slider-item-bottom">
-                    <p class="pets-name">Jenifer</p>
+                    <p class="pets-name">Jennifer</p>
                     <button class="learn-more" type="button">
                         <span>Learn more</span>
                     </button>
@@ -114,12 +114,12 @@
             </div>
             <div class="bottom-friends-section">
             <div class="get-know-the-rest">
-            <span>Get to know the rest</span>
+            <a href="pets.html" class="button"> <span>Get to know the rest</span></a>
             </div>
             </div>
 
     </section>
-    <section class="how-you-can-help">
+    <section id="help"class="how-you-can-help">
         <div class="help-heading">
         <div class="help-heading-text">
             How you can help<br>
@@ -190,7 +190,7 @@
             <div class="donation-credit-card">
                 <img class="donation-credit-card-img" src="./assets/credit-card.png">
                 <div class="credit-card-number">
-                    8380 2880 8028 8791 7435
+                    <a href="#"> 8380 2880 8028 8791 7435</a>
                 </div>
             </div>
             <div class="donation-description">
@@ -202,7 +202,7 @@
         </div>
     </section>
 </main>
-<footer>
+<footer id="contacts">
     <div class="questions">
 <div class="question-description">
     <h3>For questions <br>and suggestions</h3>
@@ -235,5 +235,6 @@
         <p><img src="./assets/footer-puppy.png"></p>
     </div>
 </footer>
+<script async src="index.js"></script>
 </body>
 </html>

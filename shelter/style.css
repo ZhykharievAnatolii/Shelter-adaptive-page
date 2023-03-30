@@ -19,8 +19,8 @@ header{
     /*margin-top: 30px;*/
     /*margin-left: 40px;*/
 }
-.logo-info{
-
+.logo-info a{
+    text-decoration: none;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -61,6 +61,9 @@ header{
     background: url(assets/start-screen-gradient-background.png);
 
 }
+.start-screen-img{
+    background: url(assets/start-screen-gradient-background.png);
+}
 
 .main-group{
     display: flex;
@@ -99,6 +102,17 @@ header{
     background: #F1CDB3;
     border-radius: 100px;
 
+}
+.btn-primary a{
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    white-space: nowrap;
 }
 .btn-primary span{
     width: 117px;
@@ -158,6 +172,7 @@ header{
     color: #4C4C4C;
 }
 .our-friends{
+    position: relative;
     background-color: #F6F6F6;
     height: 877px;
 }
@@ -180,10 +195,15 @@ header{
 }
 .slider{
     display: flex;
-    flex-direction: row;
+    /*!*flex-direction: row;*!*/
+    justify-content: center;
     margin-top: 60px;
     margin-right: 145px;
     margin-right: 145px;
+}
+.pets-img-slider{
+    width: 270px;
+    height: 270px;
 }
 .slider-button{
     display: flex;
@@ -191,6 +211,9 @@ header{
     margin-left: 59px;
 }
 .slider-control-left{
+    position: absolute;
+    left: 59px;
+    top:375px;
     border-radius: 50%;
     width: 52px;
     height: 52px;
@@ -201,33 +224,46 @@ header{
     height: 6px;
 }
 .slider-control-right{
+    position: absolute;
+    right: 59px;
+    top:375px;
     border-radius: 50%;
     width: 52px;
     height: 52px;
     border-color: #F1CDB3;
+}
+.slider-item-katrine{
+    margin-left: 150px;
+    width: 270px;
+    height: 270px;
+    border-radius: 9px 9px 0px 0px;
 }
 .slider-control-right img{
     width: 14px;
     height: 6px;
 }
 .slider-item{
+    margin-left: 90px;
     width: 270px;
     height: 270px;
     border-radius: 9px 9px 0px 0px;
 }
 .slider-item-bottom{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 270px;
     height: 435px;
     border-radius: 9px;
 }
 .slider-item-bottom p{
+    margin-top: 30px;
     margin-bottom: 45px;
 }
 .pets-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 97px;
     height: 22px;
     font-family: 'Georgia';
@@ -244,8 +280,15 @@ header{
     border-color: #FDDCC4;
     border-radius: 100px;
 }
+.bottom-friends-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
 .get-know-the-rest{
-    margin-top: 60px;
+    margin-top: 120px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,6 +296,9 @@ header{
     height: 52px;
     background: #F1CDB3;
     border-radius: 100px;
+}
+.get-know-the-rest a{
+    text-decoration: none;
 }
 .get-know-the-rest span{
     font-family: 'Georgia';
@@ -263,6 +309,7 @@ header{
     letter-spacing: 0.06em;
     color: #292929;
     align-self: center;
+
 }
 .how-you-can-help{
     background-color: #FFFFFF;
@@ -285,33 +332,31 @@ header{
     color: #545454;
 }
 .help-cards-content-top{
+    margin-left: 127px;
+    margin-right: 127px;
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
 .help-cards-content-bottom{
+    margin-left: 211px;
+    margin-right: 211px;
     margin-top: 59px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
 }
-/*.help-card{*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
+.help-card{
+}
 .help-img-pet-food{
+    margin-left: 15px;
     Width :47.86px;
     Height :60px;
-    left: 10.12%;
-    right: 10.12%;
-    top: 0%;
-    bottom: 0%;
 }
 .help-img-transportation{
+    margin-left: 35px;
     width: 59.95px;
     height: 60px;
-    left: calc(50% - 59.95px/2 - 0.05px);
-    top: calc(50% - 60px/2);
 }
 .help-img-toys{
     width: 60px;
@@ -322,38 +367,32 @@ header{
 .help-img-bowls{
     width: 60px;
     height: 56.82px;
-    left: calc(50% - 60px/2);
-    top: calc(50% - 56.82px/2 + 0.41px);
+    margin-left: 40px;
 }
 .help-img-shampoos{
     width: 31.3px;
     height: 60px;
-    left: calc(50% - 31.3px/2 - 0.7px);
-    top: calc(50% - 60px/2);
+    margin-left: 35px;
 }
 .help-img-vitamins{
     width: 60px;
     height: 54.16px;
-    left: calc(50% - 60px/2);
-    top: calc(50% - 54.16px/2 + 0.08px);
+    margin-left: 10px;
 }
 .help-img-medicines{
     width: 60px;
     height: 60px;
-    left: calc(50% - 60px/2 - 0px);
-    top: calc(50% - 60px/2);
+    margin-left: 10px;
 }
 .help-img-collars{
     width: 60px;
     height: 52.43px;
-    left: 0px;
-    top: 4px;
+    margin-left: 40px;
 }
 .help-img-sleeping{
     width: 56.29px;
     height: 60px;
-    left: calc(50% - 56.29px/2 + 0.29px);
-    top: calc(50% - 60px/2);
+    margin-left: 40px;
 }
 .help-card h4{
     font-family: 'Georgia';
@@ -415,6 +454,19 @@ header{
     color: #545454;
     width: 307px;
     height: 17px;
+}
+.credit-card-number a{
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-left: 15px;
 }
 .donation-credit-card{
     margin-top: 30px;
@@ -486,11 +538,17 @@ footer{
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mail-img{
     width: 40px;
     height: 26px;
 }
 .mail-link a{
+    margin-left: 20px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -499,12 +557,18 @@ footer{
     letter-spacing: 0.06em;
     color: #F1CDB3;
     text-decoration: none;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .phone-img{
     width: 40px;
     height: 32px;
 }
 .phone-link a {
+    margin-left: 20px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -514,11 +578,17 @@ footer{
     color: #F1CDB3;
     text-decoration: none;
 }
+.location-pin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .location-img{
     width: 22px;
     height: 32px;
 }
 .location-link a{
+    margin-left: 20px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
